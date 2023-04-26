@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+button {
+  color: #dd1264;
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 0px none;
+  cursor: pointer;
+}
+.nameCard {
+  margin-top: 30px;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 30px;
+  font-weight: 700;
+}
